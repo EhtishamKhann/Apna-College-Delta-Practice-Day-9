@@ -1,0 +1,33 @@
+#container{
+    height: 500px;
+    width: 80%;
+    background-color: azure;
+    margin: 10px auto;
+    border: 2px solid black;
+    display: flex; /*row*/
+    flex-direction: row;
+    justify-content: space-around;
+  
+    
+    
+}
+
+#blue{
+    /* flex-basis: 190px; */
+    flex-grow: 1;
+}
+#orange{
+    /* flex-basis: 190px; */
+    flex-grow: 2;
+    max-width: 250px;
+    min-width: 200px;
+}
+#container div{
+    height: 100px;
+    width: 100px;
+    color: white;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
